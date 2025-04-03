@@ -29,7 +29,7 @@ public class Encoder {
         outerloop:      // used to deal with nested loops
         for (int y = 0; y < image.getHeight(); y++) {
             for (int x = 0; x < image.getWidth(); x++) {
-                if (messageIndex >= binaryMessage.length()) {
+                if (messageIndex >= binaryMessage.length()) { 
                     break outerloop;        // breaks both loops
                 }
                 
